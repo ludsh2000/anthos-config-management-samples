@@ -15,8 +15,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello
-  namespace: default
+  name: demo
+  annotations:
+    configmanagement.gke.io/namespace-selector: demo-ns-selector
 spec:
   type: LoadBalancer
   selector:
