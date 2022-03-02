@@ -17,5 +17,5 @@ kind: Namespace
 metadata:
   name: hello
   labels:
-    - key: "geo"
+    - geo: "China"
 # [END anthos_config_management_quickstart_namespaces_hello_namespace] 
